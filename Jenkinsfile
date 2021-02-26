@@ -5,7 +5,7 @@ pipeline {
   IKS_CLUSTER = 'c0rj4r1d0huad5id0ut0'
   DEPLOYMENT_NAME = 'iks-test'
   PORT = '5001'
-  registry = ankimittal/flask-k8s"
+  registry = "ankimittal/flask-k8s"
   registryCredential = 'DockerId'
   dockerImage = ''
   }
